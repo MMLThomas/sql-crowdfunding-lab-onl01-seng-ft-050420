@@ -15,8 +15,6 @@ CREATE TABLE projects (
   
   CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
-  title TEXT,
-  category TEXT,
   amount INTEGER,
   user_id INTEGER,
   project_id INTEGER
